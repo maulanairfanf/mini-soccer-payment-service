@@ -1,0 +1,48 @@
+{
+	"port": 8003,
+	"appName": "payment-service",
+	"appEnv": "local",
+	"signatureKey": "w3J9dG8qZ5yG4XvL8cNtQF1zVKaRbM7pL2JH+YdKz9o=",
+	"database": {
+		"host": "localhost",
+		"port": 5433,
+		"name": "payment_service",
+		"username": "root",
+		"password": "password",
+		"maxOpenConnection": 10,
+		"maxLifetimeConnection": 10,
+		"maxIdleConnection": 10,
+		"maxIdleTime": 10
+	},
+	"rateLimiterMaxRequest": 1000,
+	"rateLimiterTimeSecond": 60,
+	"internalService": {
+		"user": {
+			"host": "http://localhost:8001",
+			"signatureKey": "IphDM6YqXe0n103CyMLV"
+		}
+	},
+	"gcsType": "service_account",
+	"gcsProjectID": "mini-soccer-453208",
+	"gcsPrivateKeyID": "4cae410b30ccd0dda5e318d34e9cfb9263f76e2f",
+	"gcsPrivateKey": "LS0tLS1CRUdJTiBQUklWQVRFIEtFWS0tLS0tXG5NSUlFdlFJQkFEQU5CZ2txaGtpRzl3MEJBUUVGQUFTQ0JLY3dnZ1NqQWdFQUFvSUJBUUNrNXBVdDNVa0lESUZLXG5JMlByTjlvUXAvUUdjWlN4Wkl5VDYzTDFFU243N21DUVF6TzlvVWFPQkdpaUt6dTgrOEJRSkc0SHBvZFA3aDNwXG5pMDRNQUpRa3ZVbXh1KzdMSWJGV0dJVGxBQ1VhZVJKU0FxRGJkVW8vMWIxaGg2NzNVWlFkVzhwNmlSVlRqK1BhXG5yUjEwMC9wSHdKNGdyc0lNVUw1TkZtajd3NmUvWUpBUFgvbENuakNjSjlXdmo3a2VDZUxDNGdDRkdQVm9xNHR6XG5Pci9vcnNPQVJIdFhkMlRjZ2VFU3ZGVXQ5WURZWVRwQUFtZlFOaVdkOHRHVXZ3RjVTYnN3M2hZd0duN1pxRnpqXG5vRnFacXdwUWpVVFdHRUlzazlvM2pad0EvNXM4WFgwdGI5SUZWNkdEb0M0MGxjMFMyazlJNmNuOVM2RUNKNUdKXG5JZG40SHZCOUFnTUJBQUVDZ2dFQUV0ZnFtaWdjVFZnb2VoRmJQS2pRT1hFSDJLaW9CakZvUXdyM3d2dG9JY3JXXG5yQVdSNXd5RDVIeXFmRVdXZVAwSHQrREIxZ3Y0a0hDMGFGaXIzWUUvYklkWTRYK0pSUnNmaWFnWm41V0pwK0hIXG43eWt2dW9SSHJNMis2Mk0yNGpvblE4ZVdkclF0aExQL3BLQjlxamtDODZvV0o4UHdscm12VlYzSE4yWGZTR1lRXG5ScGVZVFZlTm1NdXRrQjJJTG5BRVpuL25MdzZKNHdPSjlFUzZ4dUU4WWp1UGk4d2hrTFZOWEtFR2dNdHhvd0dhXG52N2VuMGNpVThQNkppV1hEc1YwbUVydnY4YWF5TUdxRXA3Z0VpdmZkd0xKTjU1Si9jam91OS81UjNoRTlkQkxvXG5hTENFTTFPQjNHdHZtOXhRTEF4c2JDdVJ3VGg0VmVGSWNhMGJSNk9uQVFLQmdRRGhseGlseitXZHBWVUJOd0NiXG5JWFk0Z0VrMyszemtkdXd6U21RSXZ6ZE9iK2R3NHEzdGRjQnhLOFJsa3ZIRTdpTnFJMWM0R3lvSjlpSHBpOWlpXG5rZjU1R0xXQUVKVC9nVU5FZm5BcFRDWTE3R0V5aVZtT1dtMHRHZEVIM3hqUTdwU2xNa1lxeHRiSFAxck1UaEhYXG5zQWxXV2I1QTc1RVlNdExPTUo1MjVYenZQUUtCZ1FDN0lTWTliNlpBK3ZOS3dMZVVpVE5vODdtay9QUkM3NVJPXG4rSU9kS1dYWUFsRGhERHNVY2h2ckdnOCtuQk42VmZJQW0zbTlHL1hDN2dNMDBDVWc0K3BNaGpxY3MwOFZNNmhkXG5yVk9aQkJRcnBIZ2tzZGlMWkNsTk9ia1l3RVVWcXV3U0FSUTVXWVNzdko3eEwvcDR0TjdWdEhveHNCZXFWUGVpXG4zM05rQVNJYVFRS0JnQmxQYzVOKy9Oc3dKcFpwVG1jWlhRTS8yWGN2ZnphKzVRZG9MRXNTOFNpYXc1UFZ5di9lXG5lMFgzVENTOVZPVHNkd3E4aGxla0xKWkxpRWlFeVR5TU5zbnRiTWUrbElrS1BycmJtTWY1WkR3ZWxsVXVOZDhUXG41RFh3TkpTMmdqbEcyMlNoZkYvbVNVaTNvZjlVTHdwTkZPOGNTSTFPazYvc1c5eUlkZThQRm5KZEFvR0FGUXN6XG5TN0ZrbHVZaHVnUldJTVFWSGZaYXFDMHlJdHppWnNjWHRmTFQyeWpYZzVkbWhYUVhvNmE0bENmbElOck5iamdOXG54ckNBUUwyWGFyY0ZsZDlMbC9ONFgrcmlOOVlwVnUrSStTbzJRbm9xY0tYM1hpV1RaM1hZVk9vNldxZHdDTTVLXG5RZkRKTk11NWJCSWpMclBZWTF2NmFlQU5xVUFJNFM0VHdlbEd0b0VDZ1lFQWgzaFNCZFp6L3c4N05BV3NGZDRxXG5QR1MvSk5vT1VxdXFsdlpDbzVXOWpwYU4zRzdsUXFPaE1ySTBPdGFRVGFWUzN5bk1xRFgzaDB4elFmWXVXSXVTXG5FUzUzZVQwSlVkZzdDOStHeHl1aE9DOEtOaFRYeFZkaFZBc3JuZzdiWFVzREJOKzExRC9VREpXYkxqTnJ2N2VsXG5YSC9aM1ZvM2J6NTVCZmc5MGFlWWVPdz1cbi0tLS0tRU5EIFBSSVZBVEUgS0VZLS0tLS1cbg==",
+	"gcsClientEmail": "mini-soccer@mini-soccer-453208.iam.gserviceaccount.com",
+	"gcsClientID": "116111706841752254917",
+	"gcsAuthURI": "https://accounts.google.com/o/oauth2/auth",
+	"gcsTokenURI": "https://oauth2.googleapis.com/token",
+	"gcsAuthProviderX509CertURL": "https://www.googleapis.com/oauth2/v1/certs",
+	"gcsClientX509CertURL": "https://www.googleapis.com/robot/v1/metadata/x509/mini-soccer%40mini-soccer-453208.iam.gserviceaccount.com",
+	"gcsUniverseDomain": "googleapis.com",
+	"gcsBucketName": "field-service",
+	"kafka": {
+		"brokers": ["localhost:9092"],
+		"timeoutInMs": 100,
+		"maxRetry": 3,
+		"topic": ""
+	},
+	"midtrans": {
+		"serverKey": "",
+		"clientKey": "",
+		"isProduction": false
+	}
+}
